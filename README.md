@@ -97,14 +97,14 @@ python-pip (python3-pip for python3) and git are required for the installation p
 
     python -m venv lgtv-venv
     source lgtv-venv/bin/activate
-    pip install git+https://github.com/klattimer/LGWebOSRemote
+    pip install git+https://github.com/gband85/LGWebOSRemote
 
 To install it system wide:
 
 	sudo mkdir -p /opt
 	sudo python -m venv /opt/lgtv-venv
 	source /opt/lgtv-venv/bin/activate
-	sudo pip install git+https://github.com/klattimer/LGWebOSRemote
+	sudo pip install git+https://github.com/gband85/LGWebOSRemote
 
 ## Example usage
     # Scan/Authenticate
